@@ -46,6 +46,9 @@ Console.WriteLine("carro".ToQuantity(10));
 Console.WriteLine(1.Ordinalize());
 Console.WriteLine(6.Ordinalize());
 
-
-
-
+//Trabalhando com Bits e Bytes
+var fileSize = (1).Megabytes();
+Console.WriteLine(fileSize.Bits);
+Console.WriteLine(fileSize.Bytes);
+Console.WriteLine(fileSize.Kilobytes);
+Console.WriteLine(fileSize.Megabytes);
